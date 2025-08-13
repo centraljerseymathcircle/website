@@ -5,6 +5,8 @@
   "homepage": "https://centraljerseymathleague.github.io/website",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
