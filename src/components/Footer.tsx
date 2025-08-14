@@ -31,7 +31,7 @@ const Footer = () => {
               <span>Saturdays or Sundays 1:00 PM - 4:00 PM</span>
             </div>
             <p className="text-sm opacity-80">
-              Classes run from November 2024 through January 2025
+              Classes run from November 2025 through January 2026
             </p>
           </div>
 

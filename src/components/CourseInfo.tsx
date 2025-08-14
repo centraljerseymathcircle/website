@@ -4,12 +4,12 @@ import { Calendar, MapPin, DollarSign, Clock, Users, Book, User, BookOpen } from
 
 const CourseInfo = () => {
   const scheduleItems = [
-    { date: "Saturday, Nov 15, 2025", topic: "Algebra" },
-    { date: "Saturday, Nov 22, 2025", topic: "Geometry" },
-    { date: "Saturday, Nov 29, 2025", topic: "Number Theory" },
-    { date: "Saturday, Dec 6, 2025", topic: "Counting and Probability" },
-    { date: "Saturday, Dec 13, 2025", topic: "Algebra" },
-    { date: "Saturday, Dec 20, 2025", topic: "Geometry" },
+    { date: "Saturday, Nov 8, 2025", topic: "Algebra" },
+    { date: "Saturday, Nov 15, 2025", topic: "Geometry" },
+    { date: "Saturday, Nov 22, 2025", topic: "Number Theory" },
+    { date: "Saturday, Nov 29, 2025", topic: "Counting and Probability" },
+    { date: "Saturday, Dec 6, 2025", topic: "Algebra" },
+    { date: "Saturday, Dec 13, 2025", topic: "Geometry" },
     { date: "Saturday, Jan 3, 2026", topic: "Number Theory" },
     { date: "Sunday, Jan 11, 2026", topic: "Counting and Probability" },
     { date: "Sunday, Jan 18, 2026", topic: "Problem Solving" },
@@ -133,11 +133,11 @@ const CourseInfo = () => {
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white/10 rounded-lg p-6">
                   <h3 className="text-xl font-bold mb-2">Regular Registration</h3>
-                  <p className="text-3xl font-bold">$300</p>
+                  <p className="text-3xl font-bold">$400</p>
                 </div>
                 <div className="bg-white/10 rounded-lg p-6">
                   <h3 className="text-xl font-bold mb-2">Returning Students</h3>
-                  <p className="text-3xl font-bold">$250</p>
+                  <p className="text-3xl font-bold">$325</p>
                 </div>
               </div>
               
@@ -150,14 +150,14 @@ const CourseInfo = () => {
                 variant="hero"
                 size="lg"
                 className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-6"
-                onClick={() => window.open('https://google.com', '_blank')}
+                onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSfYQ129htg_WcuUpXr8A5oJPPubLCAbBljSY49lDYgk5hr96g/viewform?usp=dialog', '_blank')}
               >
                 Register Now
               </Button>
 
               <div className="text-base opacity-90 space-y-3">
                 <p className="text-lg font-semibold">• All proceeds benefit the Central Jersey Math League ARML team</p>
-                <p className="text-lg font-semibold">• Financial assistance available - contact centraljerseymathcircle@gmail.com</p>
+                <p className="text-lg font-semibold">• If these fees cause a significant financial burden, please reach out to us at centraljerseymathcircle@gmail.com</p>
               </div>
             </CardContent>
           </Card>

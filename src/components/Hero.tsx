@@ -36,7 +36,7 @@ const Hero = () => {
               variant="hero" 
               size="lg"
               className="text-lg px-8 py-6"
-              onClick={() => window.open('https://google.com', '_blank')}
+              onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSfYQ129htg_WcuUpXr8A5oJPPubLCAbBljSY49lDYgk5hr96g/viewform?usp=dialog', '_blank')}
             >
               Register Now
             </Button>
