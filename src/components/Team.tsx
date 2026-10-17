@@ -19,6 +19,11 @@ const Team = () => {
       role: "Instructor",
       bio: "Ada is a 3 time AIME qualifier and USAMO qualifier with a love for math and teaching. She is a senior at Edison Academy Magnet School and has been involved in math education for several years. She is excited to share her knowledge and passion to help students succeed on their competitive math endeavors.",
     },
+    {
+      name: "Ashwin Krishnamurthy",
+      role: "Instructor",
+      bio: "Ashwin, a senior at Edison Academy Magnet School, is a one-time USAPhO and two-time AIME qualifier with a passion for the intersection of mathematics and physics. He applies this passion to real-world engineering projects, from building drones to CubeSats. In his free time, he enjoys sim racing, exploring the night sky with his telescope, and playing tennis. Having coached students for exams like the AMC 8, he is excited to help the students at CJMC grow.",
+    },
   ];
 
   return (
