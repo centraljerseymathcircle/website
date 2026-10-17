@@ -6,17 +6,12 @@ const Team = () => {
   const teamMembers = [
     {
       name: "Vaibhav Sitaraman",
-      role: "Lead Organizer & Instructor",
+      role: "Co-Director (Lead Instructor)",
       bio: "Vaibhav is incredibly passionate about competitive math and math education. He was part of CJML's ARML A team in his freshman year and is a former MCAMC winner. He was also a top 5 individual at MATHCOUNTS Chapter and top 15 at MATHCOUNTS State, with 2x 1st place team at Chapter and 4th place team at State. Aside from math, Vaibhav is also very interested in competitive programming and software development as a member of the USACO Gold division.",
     },
     {
-      name: "Ashwin Krishnamurthy",
-      role: "Lead Instructor",
-      bio: "Ashwin, a senior at Edison Academy Magnet School, is a one-time USAPhO and two-time AIME qualifier with a passion for the intersection of mathematics and physics. He applies this passion to real-world engineering projects, from building drones to CubeSats. In his free time, he enjoys sim racing, exploring the night sky with his telescope, and playing tennis. Having coached students for exams like the AMC 8, he is excited to help the students at CJMC grow.",
-    },
-    {
       name: "Eric Dai",
-      role: "Instructor",
+      role: "Co-Director (Lead Instructor)",
       bio: "Eric is an incoming junior at Edison Academy Magnet School with a strong passion for competitive math. He is a 4x AIME qualifier and a 2x USAJMO qualifier, earning JMO Honors twice. He was also a representative for New Jersey at MATHCOUNTS nationals. Aside from math, Eric is also interested in competitive programming and software development, achieving the USACO Platinum Top 50 rank.",
     },
     {
